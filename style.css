@@ -6,7 +6,7 @@
 body {
   background-color: grey;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(1, 4, 53, 0.1)),
-    url("images/background2a.jpg");
+    url("background2a.jpg");
   background-size: cover;
   height: 100vh;
 }
@@ -14,7 +14,7 @@ body {
   align-items: center;
   background-color: grey;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(2, 2, 2, 0.514)),
-    url("images/background2.jpg");
+    url("background2.jpg");
   background-position: 0 30%;
   background-size: cover;
   color: #aaa;
@@ -121,19 +121,19 @@ a:hover {
 }
 
 .track1 audio {
-  background: url("images/project1.jpg");
+  background: url("project1.jpg");
   background-size: cover;
 }
 .track2 audio {
-  background: url("images/project2.jpg");
+  background: url("project2.jpg");
   background-size: cover;
 }
 .track3 audio {
-  background: url("images/project3.jpg");
+  background: url("project3.jpg");
   background-size: cover;
 }
 .track4 audio {
-  background: url("images/project4.jpg");
+  background: url("project4.jpg");
   background-size: cover;
 }
 
@@ -208,9 +208,9 @@ footer {
 
   .projects {
     background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-      url("images/background2a.jpg");
+      url("background2a.jpg");
     background: linear-gradient(rgba(61, 68, 90, 0.1), rgba(0, 0, 0, 0.8)),
-      url("images/background2a.jpg");
+      url("background2a.jpg");
     background-position: 50% 50%;
   }
   .audio-col h1,
