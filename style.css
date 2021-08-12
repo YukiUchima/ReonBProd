@@ -6,15 +6,15 @@
 body {
   background-color: grey;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(1, 4, 53, 0.1)),
-    url("background2a.jpg");
+    url("images/background2a.jpg");
   background-size: cover;
-  height: auto;
+  height: 100vh;
 }
 .navBar-container {
   align-items: center;
   background-color: grey;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(2, 2, 2, 0.514)),
-    url("background2.jpg");
+    url("images/background2.jpg");
   background-position: 0 30%;
   background-size: cover;
   color: #aaa;
@@ -121,21 +121,20 @@ a:hover {
 }
 
 .track1 audio {
-  background: url("project1.jpg");
+  background: url("images/project1.jpg");
   background-size: cover;
 }
 .track2 audio {
-  background: url("project2.jpg");
+  background: url("images/project2.jpg");
   background-size: cover;
 }
 .track3 audio {
-  background: url("project3.jpg");
+  background: url("images/project3.jpg");
   background-size: cover;
 }
 .track4 audio {
-  background: url("project4.jpg");
+  background: url("images/project4.jpg");
   background-size: cover;
-  filter: drop-shadow(20%);
 }
 
 .audioPlayer {
@@ -152,6 +151,7 @@ a:hover {
 footer {
   background: #111;
   color: #777;
+  display: relative;
   margin-right: 10px;
   text-align: right;
 }
@@ -163,16 +163,29 @@ footer {
     display: none;
   }
   .audioTrack audio {
-    background-color: #333;
     height: 250px;
-    width: 300px;
+    width: 290px;
   }
   .navBar-container {
     justify-content: center;
   }
 }
+@media (max-width: 1300px) {
+  .projects {
+  }
+  .audioTrack audio {
+    height: 150px;
+    width: 200px;
+  }
+  .section-title {
+    font-size: 1.2rem;
+  }
+  .trackTitle {
+    font-size: 0.6rem;
+  }
+}
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .navBar-logo img {
     width: 200px;
     position: relative;
@@ -195,12 +208,10 @@ footer {
 
   .projects {
     background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-      url("background2.jpg");
+      url("images/background2a.jpg");
     background: linear-gradient(rgba(61, 68, 90, 0.1), rgba(0, 0, 0, 0.8)),
-      url("background2.jpg");
-    background-position: 0 50%;
-    background-repeat: no-repeat;
-    height: auto;
+      url("images/background2a.jpg");
+    background-position: 50% 50%;
   }
   .audio-col h1,
   p {
