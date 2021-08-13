@@ -20,16 +20,18 @@ body {
   max-height: 200px;
 }
 .nav-container img {
-  max-height: 180px;
+  max-height: 130px;
   border-radius: 10px 0 8px 0;
   opacity: 0.8;
+  transform: translateY(10%);
+  margin-left: 10px;
 }
 .text {
   color: #fff;
   font-size: 15px;
   position: relative;
-  bottom: 25px;
-  left: 4px;
+  bottom: 12px;
+  left: 14px;
 }
 .nav-links {
   margin-right: 140px;
@@ -56,7 +58,7 @@ body {
 }
 .nav-container a:hover {
   text-shadow: 0 0 10px #fff;
-  background: rgba(201, 2, 2, 0.4);
+  background: rgba(100, 100, 100, 1);
 }
 .projects {
   background: rgba(0, 0, 0, 0.5);
@@ -142,7 +144,7 @@ audio:hover {
 .audioTitle {
   color: #fff;
   position: relative;
-  top: -200px;
+  top: -300px;
   left: 0px;
   text-align: center;
   text-shadow: 0px 0px 10px #fff;
