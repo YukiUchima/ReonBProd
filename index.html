@@ -13,12 +13,13 @@
 
 
     <body>
-        <nav class="navBar-container">
-            <div class="navBar-logo">
+    <div class="content">
+        <nav class="nav-container">
+            <div class="nav-logo">
                 <img src="profile2.jpg">
                 <div class="text">ReonB Productions</div>
             </div>
-            <div class="navBar-links">
+            <div class="nav-links">
                 <ul>
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">PROFILE</a></li>
@@ -33,13 +34,14 @@
         <h1 class="section-title" id="projects"><span>PROJECTS<span></h1>
             <div class="audio-container">
                 <div class="audio-col">
-                    <div class="audioTrack track1">
+                    <div class="audioTrack" id="track1">
                         <div class="audioPlayer">
                             <audio controls controlsList="nodownload">
+                                <div>test</div>
                                 <source src="track1.m4a" type="audio/mpeg">
                             </audio>
                         </div>
-                        <div class="trackTitle">
+                        <div class="audioTitle">
                             <h1>Track One</h1>
                             <p>Details:</p>
                         </div>
@@ -52,7 +54,7 @@
                                 <source src="track2.m4a" type="audio/mpeg">
                             </audio>
                         </div>
-                        <div class="trackTitle">
+                        <div class="audioTitle">
                             <h1>Track Two</h1>
                             <p>Details:</p>
                         </div>
@@ -65,7 +67,7 @@
                                 <source src="track3.mp3" type="audio/mpeg">
                             </audio>
                         </div>
-                        <div class="trackTitle">
+                        <div class="audioTitle">
                             <h1>Track Three</h1>
                             <p>Details:</p>
                         </div>
@@ -78,7 +80,7 @@
                                 <source src="track4.mp3" type="audio/mpeg">
                             </audio>
                         </div>
-                        <div class="trackTitle">
+                        <div class="audioTitle">
                             <h1>Track Four</h1>
                             <p>Details:</p>
                         </div>
@@ -86,11 +88,14 @@
                 </div>
             </div>
         </section>
-
+    </div> <!--content-->
         <footer>
-            <p>&copy; All Rights Reserved</p>
-            <p>Original Music by Client</p>
+            <div>
+                <p>&copy; All Rights Reserved</p>
+                <p>Original Music by Client</p>
+            </div>
         </footer>
-
+    
     </body>
+    
 </html>
